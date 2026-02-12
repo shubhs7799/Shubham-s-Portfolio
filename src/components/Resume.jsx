@@ -41,18 +41,6 @@ const Resume = () => {
         "Implemented secure password reset with token generation and bcrypt encryption",
         "Used Redux Toolkit for state management and React Router v6 for protected routes"
       ]
-    },
-    {
-      name: "Charity Donation Platform",
-      description: "Full-featured charity platform with role-based authentication",
-      technologies: "Node.js, Express, PostgreSQL, JWT, HTML5, CSS3",
-      responsibilities: [
-        "Designed role-based authentication system (Admin, Charity, Donor)",
-        "Implemented charity registration and approval workflow",
-        "Integrated secure payment processing with Cashfree gateway",
-        "Built comprehensive analytics dashboard for insights",
-        "Developed responsive UI with modern design principles"
-      ]
     }
   ];
 
