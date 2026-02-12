@@ -17,15 +17,29 @@ const Resume = () => {
 
   const projects = [
     {
-      name: "Expense Tracker",
-      description: "Full-stack expense tracking application with payment gateway integration",
-      technologies: "Node.js, Express, Sequelize, PostgreSQL, JWT, Cashfree",
+      name: "FooDiv - Restaurant Delivery Application",
+      description: "Full-stack restaurant delivery application with role-based access control",
+      technologies: "React 19, Redux Toolkit, Tailwind CSS 4, Firebase REST API, React Router DOM, Vite",
       responsibilities: [
-        "Implemented JWT-based authentication and authorization system",
-        "Integrated Cashfree payment gateway for premium features",
-        "Developed comprehensive expense management with categories",
-        "Built analytics dashboard with reporting functionality",
-        "Created email notification system for user engagement"
+        "Developed separate admin and customer workflows using role-based access control",
+        "Integrated Firebase Authentication and Firestore via REST APIs without SDKs",
+        "Built dynamic shopping cart with quantity controls and real-time price updates",
+        "Designed real-time recipe search with instant filtering by name and ingredients",
+        "Created responsive, mobile-first UI optimized for performance and usability",
+        "Developed admin dashboard with full CRUD operations for categories and recipes"
+      ]
+    },
+    {
+      name: "Expense Tracker - MERN Stack Application",
+      description: "Full-stack expense tracking with JWT authentication and premium membership",
+      technologies: "MongoDB, Express.js, React 18, Node.js, Redux Toolkit, Tailwind CSS, JWT, Cashfree, Vite",
+      responsibilities: [
+        "Developed full-stack application with JWT-based authentication and secure sessions",
+        "Implemented CRUD operations with category management and server-side pagination",
+        "Built premium membership (₹499/year) with Cashfree payment gateway integration",
+        "Created expense analytics and CSV report generation for premium users",
+        "Implemented secure password reset with token generation and bcrypt encryption",
+        "Used Redux Toolkit for state management and React Router v6 for protected routes"
       ]
     },
     {
@@ -38,18 +52,6 @@ const Resume = () => {
         "Integrated secure payment processing with Cashfree gateway",
         "Built comprehensive analytics dashboard for insights",
         "Developed responsive UI with modern design principles"
-      ]
-    },
-    {
-      name: "Group Chat App",
-      description: "Real-time messaging application with Socket.io integration",
-      technologies: "Node.js, Express, MongoDB, Socket.io, JavaScript",
-      responsibilities: [
-        "Built real-time messaging system using Socket.io",
-        "Implemented group chat functionality with user management",
-        "Designed WhatsApp-like interface with responsive design",
-        "Created message persistence with MongoDB integration",
-        "Developed online/offline status tracking system"
       ]
     }
   ];
