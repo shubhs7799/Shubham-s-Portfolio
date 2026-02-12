@@ -13,13 +13,13 @@ import {
   SiMongodb, 
   SiExpress, 
   SiTailwindcss, 
-  SiVisualstudiocode, 
   SiPostman, 
   SiGithub, 
   SiSlack,
   SiTypescript,
   SiNextdotjs
 } from 'react-icons/si';
+import { VscCode } from 'react-icons/vsc';
 
 const About = () => {
   const skills = [
@@ -38,7 +38,7 @@ const About = () => {
   ];
 
   const tools = [
-    { name: 'VS Code', icon: SiVisualstudiocode, color: '#007ACC' },
+    { name: 'VS Code', icon: VscCode, color: '#007ACC' },
     { name: 'Postman', icon: SiPostman, color: '#FF6C37' },
     { name: 'GitHub', icon: SiGithub, color: '#181717' },
     { name: 'Slack', icon: SiSlack, color: '#4A154B' },

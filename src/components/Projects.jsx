@@ -17,33 +17,58 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Expense Tracker",
-      description: "A comprehensive full-stack expense tracking application with JWT authentication, payment gateway integration, and advanced reporting features. Built with modern web development practices.",
+      title: "FooDiv - Restaurant Delivery Application",
+      description: "A full-stack restaurant delivery application with separate admin and customer workflows using role-based access control. Features Firebase Authentication and Firestore integration via REST APIs.",
       image: "/api/placeholder/400/250",
       technologies: [
+        { name: 'React', icon: FaReact, color: '#61DAFB' },
+        { name: 'Tailwind', icon: SiTailwindcss, color: '#06B6D4' },
+        { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
+        { name: 'Database', icon: FaDatabase, color: '#FF6C37' }
+      ],
+      features: [
+        "Role-based Access Control (Admin & Customer)",
+        "Firebase Authentication & Firestore via REST APIs",
+        "Dynamic Shopping Cart with Real-time Updates",
+        "Real-time Recipe Search & Filtering",
+        "Responsive Mobile-first UI Design",
+        "Admin Dashboard with CRUD Operations",
+        "Order Status Management System",
+        "Optimized Performance & Usability"
+      ],
+      githubUrl: "https://github.com/shubhs7799/manage-foodiv.git",
+      liveUrl: "https://manage-foodiv.vercel.app",
+      category: "Full-Stack"
+    },
+    {
+      id: 2,
+      title: "Expense Tracker - MERN Stack Application",
+      description: "A full-stack expense tracking application with JWT-based authentication, premium membership functionality, and comprehensive expense analytics with CSV report generation.",
+      image: "/api/placeholder/400/250",
+      technologies: [
+        { name: 'React', icon: FaReact, color: '#61DAFB' },
         { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
         { name: 'Express', icon: SiExpress, color: '#000000' },
-        { name: 'Sequelize', icon: SiSequelize, color: '#52B0E7' },
-        { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
+        { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
         { name: 'JavaScript', icon: SiJavascript, color: '#F7DF1E' },
         { name: 'JWT', icon: SiJsonwebtokens, color: '#000000' }
       ],
       features: [
-        "JWT-based Authentication & Authorization",
-        "Expense Categories & Management",
-        "Payment Gateway Integration (Cashfree)",
-        "Professional Pagination & Filtering",
-        "Premium Membership Features",
-        "Email Notifications & Password Reset",
-        "Expense Reports & Analytics",
-        "User Leaderboard & Data Export"
+        "JWT-based Authentication & Secure Sessions",
+        "CRUD Operations with Category Management",
+        "Premium Membership (₹499/year) via Cashfree",
+        "Expense Analytics & CSV Report Generation",
+        "Secure Password Reset with Token Expiration",
+        "Redux Toolkit State Management",
+        "Protected Routes with Middleware Authorization",
+        "Server-side Pagination & Filtering"
       ],
       githubUrl: "https://github.com/shubhs7799/Expense-Tracker---Node.js-Project.git",
       liveUrl: null,
       category: "Full-Stack"
     },
     {
-      id: 2,
+      id: 3,
       title: "Charity Donation Platform",
       description: "A full-featured charity donation platform with role-based authentication, charity management, secure payment processing, and comprehensive analytics dashboard.",
       image: "/api/placeholder/400/250",
@@ -70,7 +95,7 @@ const Projects = () => {
       category: "Full-Stack"
     },
     {
-      id: 3,
+      id: 4,
       title: "Group Chat App",
       description: "A real-time group chat application similar to WhatsApp, built with Socket.io for instant messaging, MongoDB for data persistence, and responsive design.",
       image: "/api/placeholder/400/250",
